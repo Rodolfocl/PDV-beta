@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pdv {
+    width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+    /*para redondear las imagenes*/
+}
+
+body {
+    font-family: verdana;
+}
+
+.horario {
+    font-family: sans-serif;
+    font-size: 20px
+}
+
+h3 {
+    font-family: sans-serif;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+table {
+    font-family: sans-serif;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    /*para dar borde a la tabla completa*/
+    width: 600px;
+    /*separacion hacia los lados*/
+}
+
+.horas {
+    background: #b3d5e6;
+    color: #1a405e;
+    width: 1px;
+}
+
+.dias {
+    background: #1a405e;
+    color: #fff;
+}
+
+table td {
+    border: 1px solid #000;
+    /*dar borde a cada una el tamaño y color*/
+    padding: 20px;
+    /*separacion hacia abajo*/
+}
+
+table tr:hover {
+    background: #b3d5e6;
+    /*doy color de fondo a toda la fila*/
+}
+
+table td:hover {
+    /*al pasar el mouse por encima asocia color parta identificar*/
+    background: #1a405e;
+    /*defino color de fondo*/
+    color: #fff;
+    /*defino color de fuente*/
+}
+
+body {
+    font-family: verdana;
+    background: #e6e6e6;
+}
+
+header, .main, footer {
+    width: 90%;
+    /*para el diseño adaptable o responsive*/
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+header nav {
+    background: #528fd5;
+    overflow: hidden;
+}
+
+header nav ul {
+    text-shadow: 1px 1px 1px #01020b;
+    /*sombra para los titulos iniciale inicio, etc*/
+    list-style: none;
+    /*para quitar los puntos de la lista*/
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background: #75acec;
+}
+
+.main .articles {
+    width: 100%;
+    /*para dar el tamaño del 70% del documento (lo blanco) */
+    float: left;
+    /*para que el contenido no se vaya a la izquierda*/
+}
+
+.main .articles article {
+    /*le agrego margenes internos a los articulos y a cada articulo*/
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+img {
+    float: left;
+}
+
+.titulo {
+    margin: 10px;
+    padding: 10px 20px;
+    background: #e6e6e6;
+    Color: #ffffff;
+    text-shadow: 3px 3px 3px #01020b;
+    font-size: 25px;
+}
+
+aside {
+    width: 30%;
+    background: #ff8000;
+    /*al dar el 305 baja nuevamente*/
+    float: left;
+    /*para el el aside vuyelva a la izquierda del documento*/
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer {
+  background: #306fb8;
+  color: #fff;
+  clear: both;
+  /*para limpiar los float left, que da un salto de linea*/
+  padding: 10px 0px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #01020b;
+}
+
+.tituloreuniones{
+  font-family: verdana;
+  font-size: 30px;
+text-shadow: 2px 2px 2px #8e8e8e;
+
+}
+
+/*--------------------------------------------------------------------*/

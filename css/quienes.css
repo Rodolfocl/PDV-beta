@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: verdana;
+    background: #e6e6e6;
+}
+
+.pdv {
+    width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+    /*para redondear las imagenes*/
+}
+
+header, .main, footer {
+    width: 90%;
+    /*para el diseño adaptable o responsive*/
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+header nav {
+    background: #528fd5;
+    overflow: hidden;
+}
+
+header nav ul {
+  text-shadow: 1px 1px 1px #01020b;
+  /*sombra para los titulos iniciale inicio, etc*/
+    list-style: none;
+    /*para quitar los puntos de la lista*/
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background: #75acec;
+}
+
+img {
+    float: left;
+    }
+
+.titulo {
+    margin: 10px;
+    padding: 10px 20px;
+    background: #e6e6e6;
+    Color: #ffffff;
+    text-shadow: 3px 3px 3px #01020b;
+    font-size: 25px;
+}
+
+.main .articles {
+    width: 100%;
+    /*para dar el tamaño del 70% del documento (lo blanco) */
+    float: left;
+    /*para que el contenido no se vaya a la izquierda*/
+}
+
+.main .articles article {
+    /*le agrego margenes internos a los articulos y a cada articulo*/
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+
+aside {
+    width: 30%;
+    background: #ff8000;
+    /*al dar el 305 baja nuevamente*/
+    float: left;
+    /*para el el aside vuyelva a la izquierda del documento*/
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer {
+  background: #306fb8;
+  color: #fff;
+  clear: both;
+  /*para limpiar los float left, que da un salto de linea*/
+  padding: 10px 0px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #01020b;
+}
+
+.quienessomos{
+  text-shadow: 2px 2px 2px #8e8e8e;
+}

@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: verdana;
+    background: #E6E6E6;
+}
+
+
+.pdv {
+    width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+    /*para redondear las imagenes*/
+}
+
+
+header, .main, footer {
+    width: 90%;
+    /*para el diseño adaptable o responsive*/
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+header nav {
+    background: #528fd5;
+    overflow: hidden;
+}
+
+header nav ul {
+    text-shadow: 1px 1px 1px #01020b;/*sombra para los titulos iniciale inicio, etc*/
+    list-style: none;  /*para quitar los puntos de la lista*/
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    padding: 10px 20px;
+    margin: auto;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background: #75acec;
+}
+
+img {
+    float: left;
+    }
+
+
+
+.titulo {
+  margin: 10px;
+  padding: 10px 20px;
+  background: #e6e6e6;
+  Color: #ffffff;
+  text-shadow: 3px 3px 3px #01020b;
+  font-size: 25px;
+        }
+
+
+
+.tituloarticulo{
+  text-shadow: 2px 2px 2px #8e8e8e;
+}
+
+.tituloaside{
+  text-shadow: 2px 2px 2px #8e8e8e;
+}
+
+.main .articles {
+    width: 48.5%;
+    /*para dar el tamaño del 70% del documento (lo blanco) */
+    float: left;
+    /*para que el contenido no se vaya a la izquierda*/
+    margin-right: 1.5%
+}
+
+.main .articles article {
+    /*le agrego margenes internos a los articulos y a cada articulo*/
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 20px;
+
+  }
+
+aside {
+    width: 48.5%;
+    font-size: 15.5px;
+    background: #fff;
+    /*al dar el 305 baja nuevamente*/
+    float: left;
+    /*para el el aside vuyelva a la izquierda del documento*/
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer {
+  background: #306fb8;
+  color: #fff;
+  clear: both;
+  /*para limpiar los float left, que da un salto de linea*/
+  padding: 10px 0px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #01020b;
+}
+
+
+/*           --------css  slides--------                */
+
+.main2 {
+    font-family: sans-serif;
+    width: 70%;
+    /*tamaño de la imagen en el browser*/
+    max-width: 1000px;
+    /*tamaño maximo de la imagen*/
+    margin: 20px auto;
+    /*margen de arriba y abajo*/
+}
+
+.slides {
+    width: 100%;
+    /*tamaño del slide agrtandar o achicar imagenes*/
+}
+
+.slides img {
+    width: 100%;
+}
+
+.slidesjs-pagination {
+    /*agregar imagenes dentro del backgroung*/
+    background: #424242;
+    list-style: none;
+    overflow: hidden;
+}
+
+.slidesjs-pagination li {
+    /*para ponerse uno al lado de otro N° de la img una al lado de la otra*/
+    float: left;
+}
+
+.slidesjs-pagination li a {
+    /*para colocar el N° de la img una al lado de la otra*/
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    /*tipografia blanco en los numeros*/
+    text-decoration: none;
+}
+
+.slidesjs-pagination li a:hover {
+    /*para que cuando se seleccione una imagen quede el n° en negro*/
+    background: #000;
+}
+
+.slides .active {
+    background: #000;
+}
+
+.slidesjs-navigation {
+    /*para desplazar botones a la derecha y darle los parametros*/
+    background: #000;
+    /*color fondo*/
+    color: #fff;
+    /*color fuente*/
+    text-decoration: none;
+    display: inline-block;
+    padding: 13.5px 20px;
+    float: right;
+    font-size: 11px;
+    /*tamanño textos o imagenes pause, siguiente del slide etc*/
+}
+
+/*  ------------mapa--------------  */
+.cajamapas{
+  background: #fff;
+  display: inline-block;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 95%;
+  /*para dar el tamaño del 70% del documento (lo blanco) */
+  float: left;
+  /*para que el contenido no se vaya a la izquierda*/
+  margin-right: 1.5%
+}
+
+.mapa1{
+  float: left; /*para que el mapa se vaya a la izquierda*/
+  background: #000;
+  width: 48%; /*porte del cuadrado del mapa*/
+  height: 450px;
+  padding: 1px 1px;/*grosor borde mapa*/
+  border: PowderBlue 5px solid; /*doy margen y color al mapa*/
+  }
+  .mapa2{
+    float: right; /*para que el mapa se vaya a la derecha*/
+    background: #000;
+    width: 48%;
+    height: 450px;
+    padding: 1px 1px;/*grosor borde mapa*/
+    border: PowderBlue 5px solid; /*doy margen y color al mapa*/
+    }
+
+  .info{
+    clear: both;
+    color: #000;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #fff;
+    text-shadow: 2px 2px 2px #8e8e8e;
+    font-size: 25px;
+}
+
+.pastores{
+  width: 90%;
+  padding: 20px;
+}
+
+
+/*https://www.youtube.com/watch?v=HDqJS5puXs4&list=PLhSj3UTs2_yU0fGoS1bjpHqky4kCEmTbR&index=14*/
+
+
+/* Curso de diseño web para hacer algo mas avanzado:
+http://www.falconmasters.com/cursos/curso-de-diseno-web-desde-0-introduccion/*/

@@ -1,0 +1,57 @@
+* {
+	margin:0;
+	padding:0; /*para borrar los margenes que vienen por defecto en el navegador*/
+}
+
+body {
+	background:#e6e6e6; /*color del cuerpo*/
+}
+
+.main {
+	width:70%; /*tamaño de la imagen en el browser*/
+	max-width:1000px; /*tamaño maximo de la imagen*/
+	margin:20px auto; /*margen de arriba y abajo*/
+}
+
+.slides {
+	width:100%; /*tamaño del slide agrtandar o achicar imagenes*/
+}
+
+.slides img {
+	width:100%;
+}
+
+.slidesjs-pagination { /*agregar imagenes dentro del backgroung*/
+	background:#424242;
+	list-style:none;
+	overflow:hidden;
+}
+
+.slidesjs-pagination li { /*para ponerse uno al lado de otro N° de la img una al lado de la otra*/
+	float:left;
+}
+
+.slidesjs-pagination li a { /*para colocar el N° de la img una al lado de la otra*/
+	display:block;
+	padding:10px 20px;
+	color:#fff; /*tipografia blanco en los numeros*/
+	text-decoration:none;
+}
+
+.slidesjs-pagination li a:hover { /*para que cuando se seleccione una imagen quede el n° en negro*/
+	background:#000;
+}
+
+.slides .active {
+	background:#000;
+}
+
+.slidesjs-navigation{ /*para desplazar botones a la derecha y darle los parametros*/
+	background:#000; /*color fondo*/
+	color:#fff; /*color fuente*/
+	text-decoration:none;
+	display:inline-block;
+	padding:13.5px 20px;
+	float:right;
+  font-size: 11px; /*tamanño textos o imagenes pause, siguiente del slide etc*/
+}

@@ -1,0 +1,168 @@
+.pdv {
+    width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+    /*para redondear las imagenes*/
+}
+
+body {
+    font-family: verdana;
+}
+
+form {
+    width: 25%;
+    border: 1px solid #ccc;
+    /*doy borede, grosor y color*/
+    margin: 20px;
+    padding: 20px;
+}
+
+label {
+    font-size: 12px;
+    display: block;
+    width: 100%;
+}
+
+textarea {
+    resize: vertical;
+    max-height: 300px;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    /*doy espacio entre e texto y las cajas*/
+    box-sizing: border-box;
+    /*ordena las cajas dentro del margen*/
+    border: 1px solid #ccc;
+}
+
+input:focus {
+    border: 1px solid #1668c4;
+    /*al dar click en un label este toma otro color para identificar que estamos escribiendo en el*/
+}
+
+input[type="submit"] {
+    margin-bottom: 0;
+    /*margen del boton con el fondo para que no sobre tanto*/
+    background: #1668c4;
+    /*defino color del boton*/
+    color: #fff;
+    /*color de fuente del boton*/
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background: #4a88f4;
+    cursor: pointer;
+    /*cambia el cursor por la mano al pasar por enviar*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: verdana;
+    background: #e6e6e6;
+}
+
+header, .main, footer {
+    width: 90%;
+    /*para el diseño adaptable o responsive*/
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+header nav {
+    background: #528fd5;
+    overflow: hidden;
+}
+
+header nav ul {
+  text-shadow: 1px 1px 1px #01020b;
+  /*sombra para los titulos iniciale inicio, etc*/
+    list-style: none;
+    /*para quitar los puntos de la lista*/
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    padding: 10px 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background: #75acec;
+}
+
+img {
+    float: left;
+    }
+
+.titulo {
+    margin: 10px;
+    padding: 10px 20px;
+    background: #e6e6e6;
+    Color: #ffffff;
+    text-shadow: 3px 3px 3px #01020b;
+    font-size: 25px;
+}
+
+.main .articles {
+
+    width: 100%;
+    /*para dar el tamaño del 70% del documento (lo blanco) */
+    float: left;
+    /*para que el contenido no se vaya a la izquierda*/
+}
+
+.main .articles article {
+    /*le agrego margenes internos a los articulos y a cada articulo*/
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+footer {
+  background: #306fb8;
+  color: #fff;
+  clear: both;
+  /*para limpiar los float left, que da un salto de linea*/
+  padding: 10px 0px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #01020b;
+}
+
+.logoface{
+  float: right;
+  width: 450px;
+  height: auto;
+  display: block;
+  border-radius: 5%; /*para redondear los bordes*/
+
+
+}
+
+.titulologoface{
+  font-size: 12px;
+}
+
+.mailpastor{
+  float: left;
+  }
+
+.prueba{
+  float: right;;
+}
+
+/*<label for="nombre">Nombre</label>
+<input type="text" id="nombre" placeholder="Escribe tu nombre">*/
